@@ -2,7 +2,7 @@ lyrics_directory                  = "~/.ncmpcpp/lyrics"
 ncmpcpp_directory                 = "~/.ncmpcpp"
 mpd_host                          = "localhost"
 mpd_port                          = "6600"
-mpd_music_dir                     = "/var/lib/mpd/music"
+mpd_music_dir                     = "~/music"
 
 playlist_show_remaining_time      = "yes"
 playlist_shorten_total_times      = "yes"
