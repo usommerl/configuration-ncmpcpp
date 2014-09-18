@@ -30,3 +30,6 @@ def_key "g"
 
 def_key "G"
   move_end
+
+def_key "ctrl_l"
+  show_lyrics
