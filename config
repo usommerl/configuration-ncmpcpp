@@ -6,7 +6,7 @@ mpd_music_dir                     = ~/music
 
 ask_before_clearing_playlists     = no
 autocenter_mode                   = yes
-media_library_primary_tag         = artist
+media_library_primary_tag         = album_artist
 
 display_bitrate                   = yes
 display_remaining_time            = yes
