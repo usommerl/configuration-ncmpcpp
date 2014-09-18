@@ -1,16 +1,22 @@
-lyrics_directory                  = "~/.ncmpcpp/lyrics"
-ncmpcpp_directory                 = "~/.ncmpcpp"
-mpd_host                          = "localhost"
-mpd_port                          = "6600"
-mpd_music_dir                     = "~/music"
+lyrics_directory                  = ~/.ncmpcpp/lyrics
+ncmpcpp_directory                 = ~/.ncmpcpp
+mpd_host                          = localhost
+mpd_port                          = 6600
+mpd_music_dir                     = ~/music
 
-playlist_show_remaining_time      = "yes"
-playlist_shorten_total_times      = "yes"
-autocenter_mode                   = "yes"
-display_screens_numbers_on_start  = "no"
-display_bitrate                   = "yes"
+ask_before_clearing_playlists     = no
+autocenter_mode                   = yes
+media_library_primary_tag         = artist
 
-playlist_display_mode             = "columns"
-song_columns_list_format          = "(5f){l} (25){a} (40){t|f} (30){b}"
+display_bitrate                   = yes
+display_remaining_time            = yes
+playlist_show_remaining_time      = yes
+playlist_shorten_total_times      = yes
+playlist_display_mode             = columns
 
-media_library_left_column         = "A"
+browser_display_mode              = columns
+progressbar_boldness              = no
+progressbar_elapsed_color         = yellow
+
+song_status_format                = {{%a - }{%t}}|{%f}
+song_columns_list_format          = "(25)[]{a} (40)[]{t|f:Title} (30)[]{b} (7f)[]{lr:Length}"
