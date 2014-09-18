@@ -10,6 +10,12 @@ def_key "h"
 def_key "l"
   next_column
 
+def_key "ctrl_f"
+  seek_forward
+
+def_key "ctrl_b"
+  seek_backward
+
 def_key "p"
   pause
 
