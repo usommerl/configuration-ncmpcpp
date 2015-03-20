@@ -39,3 +39,6 @@ def_key "G"
 
 def_key "ctrl_l"
   show_lyrics
+
+def_key "h"
+  jump_to_parent_directory
