@@ -10,10 +10,10 @@ def_key "h"
 def_key "l"
   next_column
 
-def_key "ctrl_f"
+def_key "ctrl-f"
   page_down
 
-def_key "ctrl_b"
+def_key "ctrl-b"
   page_up
 
 def_key "p"
@@ -37,7 +37,7 @@ def_key "g"
 def_key "G"
   move_end
 
-def_key "ctrl_l"
+def_key "ctrl-l"
   show_lyrics
 
 def_key "h"
