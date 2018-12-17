@@ -1,6 +1,6 @@
 lyrics_directory                            = ~/.ncmpcpp/lyrics
 ncmpcpp_directory                           = ~/.ncmpcpp
-mpd_music_dir                               = ~/music
+mpd_music_dir                               = ~/data/media/music
 
 ask_before_clearing_playlists               = no
 autocenter_mode                             = yes
